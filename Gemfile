@@ -31,6 +31,9 @@ gem 'rack-cors'
 # Use figaro for storing env variables
 gem 'figaro'
 
+# Use rest-client to make API calls
+gem 'rest-client'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
